@@ -1,26 +1,16 @@
-# ChatCodeAI
 
-## Overview
+## Deployment
 
-ChatCodeAI is a modern web application built using the Next.js framework. It leverages the remarkable capabilities of Next.js in server-side rendering and efficient routing to provide an exceptional user experience.
+To deploy the application using Vercel, follow these steps:
 
-## Features
+1. Sign up for a Vercel account at [vercel.com](https://vercel.com).
+2. Install the Vercel CLI by running `npm install -g vercel`.
+3. Run `vercel login` to authenticate with your Vercel account.
+4. In the root directory of the project, run `vercel` to deploy the application.
+5. Follow the prompts to configure the deployment settings.
+6. Once the deployment is complete, you will receive a URL for your deployed application.
 
-- Server-side rendering for improved performance
-- Efficient routing for seamless navigation
-
-## Technologies Used
-
-- Next.js framework
-- TypeScript
-
-## Getting Started
-
-To get started with ChatCodeAI, follow these steps:
-
-1. Clone the repository.
-2. Install the dependencies using `npm install`.
-3. Start the development server using `npm run dev`.
+Please note that you may need to set up environment variables or adjust the Vercel configuration to match your specific project requirements.
 
 ## Contributing
 

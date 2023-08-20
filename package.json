@@ -1,3 +1,4 @@
+
 {
   "name": "ChatCodeAI",
   "version": "1.0.0",
@@ -5,7 +6,8 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "vercel": "vercel deploy"
   },
   "dependencies": {
     "next": "^12.0.7",
@@ -14,15 +16,3 @@
     "typescript": "^4.5.4"
   }
 }
-    "start": "next start",
-    "dev": "next dev",
-    "build": "next build"
-  },
-  "dependencies": {
-    "next": "^12.0.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.5.4"
-  }
-}
-
