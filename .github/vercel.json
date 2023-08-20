@@ -1,0 +1,22 @@
+{
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "API_KEY": "your-api-key",
+    "API_URL": "https://api.example.com"
+  }
+}
+
+line_before
+{
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "API_KEY": "your-api-key",
+    "API_URL": "https://api.example.com"
+  }
+}
+line_after
+
